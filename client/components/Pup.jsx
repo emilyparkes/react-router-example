@@ -1,10 +1,11 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
 import puppies from '../../data/puppies'
 
 export default function Pup (props) {
-  const id = Number(props.match.params.id)
-  const pup = puppies.find(pup => pup.id === id)
+  const { id } = useParams()
+  const pup = puppies.find(pup => pup.id === Number(id))
 
   return (
     <div>

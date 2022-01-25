@@ -7,7 +7,7 @@ export default function Contact () {
       <ul>
         <li>275 Cuba Street, Poneke</li>
         <li>hello@devacademy.co.nz</li>
-        <li>Via DM on Discord</li>
+        <li>Via DM on Slack</li>
         <li>Bren, Freya, Tom and Casey</li>
       </ul>
     </div>
